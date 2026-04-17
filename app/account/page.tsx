@@ -13,6 +13,13 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   Leaf,
   ArrowLeft,
   Camera,
@@ -26,6 +33,7 @@ import {
   Heart,
   LogOut,
   Save,
+  CalendarDays,
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { useUser } from "@/lib/user-context";
@@ -45,6 +53,7 @@ export default function AccountPage() {
     dailyReminders: true,
     weeklyDigest: false,
     darkMode: false,
+    firstDayOfWeek: "sunday" as "sunday" | "monday",
   });
 
   useEffect(() => {
@@ -373,6 +382,40 @@ export default function AccountPage() {
                     <p className="text-sm text-muted-foreground">Display your streak on your profile</p>
                   </div>
                   <Switch defaultChecked />
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Calendar Preferences */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <CalendarDays className="h-5 w-5" /> Preferences
+                </CardTitle>
+                <CardDescription>Set your hobby tracking preferences</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <Label>First day of the week in calendar</Label>
+                    <p className="text-sm text-muted-foreground">
+                      Choose whether your calendar week starts on Sunday or Monday
+                    </p>
+                  </div>
+                  <Select
+                    value={settings.firstDayOfWeek}
+                    onValueChange={(v: "sunday" | "monday") =>
+                      setSettings((p) => ({ ...p, firstDayOfWeek: v }))
+                    }
+                  >
+                    <SelectTrigger className="w-36">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="sunday">Sunday</SelectItem>
+                      <SelectItem value="monday">Monday</SelectItem>
+                    </SelectContent>
+                  </Select>
                 </div>
               </CardContent>
             </Card>

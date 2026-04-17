@@ -57,7 +57,7 @@ export function Header({ currentStreak }: HeaderProps) {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center justify-center gap-6 flex-1">
+        <nav className="hidden md:flex items-center justify-center gap-6 flex-1 pl-16">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -74,7 +74,9 @@ export function Header({ currentStreak }: HeaderProps) {
           {/* Streak Badge */}
           <div className="hidden sm:flex items-center gap-1.5 rounded-full bg-hobby-yellow/20 px-3 py-1.5">
             <Flame className="h-4 w-4 text-hobby-coral" />
-            <span className="text-sm font-bold text-foreground">{currentStreak}</span>
+            <span className="text-sm font-bold text-foreground">
+              {user ? currentStreak : "–"}
+            </span>
             <span className="text-xs text-muted-foreground">day streak</span>
           </div>
 
@@ -175,7 +177,9 @@ export function Header({ currentStreak }: HeaderProps) {
                 <div className="flex items-center gap-2 rounded-xl bg-hobby-yellow/20 p-3">
                   <Flame className="h-5 w-5 text-hobby-coral" />
                   <div>
-                    <span className="text-lg font-bold">{currentStreak}</span>
+                    <span className="text-lg font-bold">
+                      {user ? currentStreak : "–"}
+                    </span>
                     <span className="text-sm text-muted-foreground ml-1">day streak</span>
                   </div>
                 </div>
