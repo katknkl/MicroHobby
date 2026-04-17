@@ -55,7 +55,7 @@ export const hobbies: Hobby[] = [
     tags: ['paper', 'relaxing', 'gift', 'traditional'],
     emoji: '🦢',
     color: 'hobby-coral',
-    mediaUrl: 'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&q=80',
   },
   {
     id: 'watercolor-sunset',
@@ -78,7 +78,7 @@ export const hobbies: Hobby[] = [
     tags: ['painting', 'creative', 'relaxing', 'colorful'],
     emoji: '🌅',
     color: 'hobby-blue',
-    mediaUrl: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80',
   },
   {
     id: 'herb-windowsill',
@@ -125,7 +125,7 @@ export const hobbies: Hobby[] = [
     tags: ['friendship', 'gift', 'colorful', 'portable'],
     emoji: '📿',
     color: 'hobby-pink',
-    mediaUrl: 'https://images.unsplash.com/photo-1573408301185-9519eb606f27?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1611162616305-eb19b0f2b7e1?w=600&q=80',
   },
   {
     id: 'cloud-bread',
@@ -196,7 +196,7 @@ export const hobbies: Hobby[] = [
     tags: ['nature', 'patience', 'gift', 'seasonal'],
     emoji: '🌸',
     color: 'hobby-green',
-    mediaUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc47?w=600&q=80',
   },
   {
     id: 'hand-stretches',
@@ -289,7 +289,7 @@ export const hobbies: Hobby[] = [
     tags: ['traditional', 'gift', 'relaxing', 'portable'],
     emoji: '🪡',
     color: 'hobby-coral',
-    mediaUrl: 'https://images.unsplash.com/photo-1550159930-40066082a4fc?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80',
   },
   {
     id: 'breathing-exercise',
