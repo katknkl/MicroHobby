@@ -92,6 +92,17 @@ export function TutorialModal({ hobby, isOpen, onClose, onComplete, onFavorite, 
           </div>
         </DialogHeader>
 
+        {/* Photo banner */}
+        {hobby.mediaUrl && (
+          <div className="w-full h-48 overflow-hidden rounded-xl mb-2 -mt-1">
+            <img
+              src={hobby.mediaUrl}
+              alt={hobby.name}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        )}
+
         {isCompleted ? (
           /* Completion screen */
           <div className="py-8 text-center">

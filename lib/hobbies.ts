@@ -10,6 +10,7 @@ export interface Hobby {
   tags: string[];
   emoji: string;
   color: string;
+  mediaUrl?: string; // optional photo shown on card + in modal
 }
 
 export interface UserProgress {
@@ -53,7 +54,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['paper', 'relaxing', 'gift', 'traditional'],
     emoji: '🦢',
-    color: 'hobby-coral'
+    color: 'hobby-coral',
+    mediaUrl: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80',
   },
   {
     id: 'watercolor-sunset',
@@ -75,7 +77,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['painting', 'creative', 'relaxing', 'colorful'],
     emoji: '🌅',
-    color: 'hobby-blue'
+    color: 'hobby-blue',
+    mediaUrl: 'https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80',
   },
   {
     id: 'herb-windowsill',
@@ -97,7 +100,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['gardening', 'sustainable', 'cooking', 'patience'],
     emoji: '🌱',
-    color: 'hobby-green'
+    color: 'hobby-green',
+    mediaUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80',
   },
   {
     id: 'friendship-bracelet',
@@ -120,7 +124,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['friendship', 'gift', 'colorful', 'portable'],
     emoji: '📿',
-    color: 'hobby-pink'
+    color: 'hobby-pink',
+    mediaUrl: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80',
   },
   {
     id: 'cloud-bread',
@@ -143,7 +148,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['baking', 'simple', 'trending', 'healthy'],
     emoji: '☁️',
-    color: 'hobby-yellow'
+    color: 'hobby-yellow',
+    mediaUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80',
   },
   {
     id: 'mindful-sketch',
@@ -165,7 +171,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['meditation', 'relaxing', 'creative', 'mindful'],
     emoji: '🖊️',
-    color: 'hobby-blue'
+    color: 'hobby-blue',
+    mediaUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80',
   },
   {
     id: 'press-flowers',
@@ -188,7 +195,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['nature', 'patience', 'gift', 'seasonal'],
     emoji: '🌸',
-    color: 'hobby-green'
+    color: 'hobby-green',
+    mediaUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc47?w=600&q=80',
   },
   {
     id: 'hand-stretches',
@@ -210,7 +218,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['quick', 'wellness', 'office-friendly', 'daily'],
     emoji: '🤲',
-    color: 'hobby-pink'
+    color: 'hobby-pink',
+    mediaUrl: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80',
   },
   {
     id: 'mug-cake',
@@ -232,7 +241,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['quick', 'chocolate', 'comfort-food', 'solo'],
     emoji: '🍫',
-    color: 'hobby-yellow'
+    color: 'hobby-yellow',
+    mediaUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80',
   },
   {
     id: 'nature-walk-bingo',
@@ -254,7 +264,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['active', 'mindful', 'family-friendly', 'seasonal'],
     emoji: '🚶',
-    color: 'hobby-green'
+    color: 'hobby-green',
+    mediaUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80',
   },
   {
     id: 'simple-embroidery',
@@ -277,7 +288,8 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['traditional', 'gift', 'relaxing', 'portable'],
     emoji: '🪡',
-    color: 'hobby-coral'
+    color: 'hobby-coral',
+    mediaUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
   },
   {
     id: 'breathing-exercise',
@@ -300,8 +312,119 @@ export const hobbies: Hobby[] = [
     ],
     tags: ['quick', 'calming', 'sleep', 'daily'],
     emoji: '🌬️',
-    color: 'hobby-pink'
-  }
+    color: 'hobby-pink',
+    mediaUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80',
+  },
+  {
+    id: 'music-beat-making',
+    name: 'Beat Making',
+    category: 'music',
+    duration: 25,
+    difficulty: 'easy',
+    materials: ['Computer or phone', 'Free browser DAW (Soundtrap, BandLab, or Chrome Music Lab)'],
+    description: 'Create a simple drum pattern or lo-fi beat using a free browser DAW. No experience needed — just hit play and layer sounds.',
+    steps: [
+      'Open a free browser DAW: try Soundtrap, BandLab, or Chrome Music Lab and start a new project',
+      'Add a kick drum sample and place it on beats 1 and 3 of a 4-bar loop',
+      'Layer a snare hit on beats 2 and 4 — this gives your beat its backbone',
+      'Fill in eighth notes with a hi-hat sample to add groove and momentum',
+      'Hit play and listen — does it feel right? Adjust volume levels between layers',
+      'Add a simple bass note or melody on top if you\'re feeling adventurous',
+      'Loop it and vibe — you just made a beat!',
+    ],
+    tags: ['music', 'creative', 'digital', 'beginner'],
+    emoji: '🥁',
+    color: 'hobby-coral',
+    mediaUrl: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&q=80',
+  },
+  {
+    id: 'music-compose-melody',
+    name: 'Compose a Melody',
+    category: 'music',
+    duration: 20,
+    difficulty: 'easy',
+    materials: ['Phone (Voice Memos app)', 'Optional: virtual piano at virtualpiano.net'],
+    description: 'Hum or whistle a short melody into your phone\'s voice memo app, then try to recreate it on a virtual piano keyboard.',
+    steps: [
+      'Open Voice Memos on your phone and press record',
+      'Hum or whistle a short 8-note melody that feels good to you — don\'t overthink it',
+      'Play it back and listen — do you like it? Record again until you have something you love',
+      'Open virtualpiano.net or Chrome Music Lab\'s Song Maker in your browser',
+      'Play around on the keyboard to find the notes that match your hummed melody',
+      'Write down the key letters in order (C, D, E, F, G, A, B) so you can revisit it',
+      'Play your melody back on the virtual piano — you just composed something original!',
+    ],
+    tags: ['music', 'creative', 'beginner', 'songwriting'],
+    emoji: '🎵',
+    color: 'hobby-blue',
+    mediaUrl: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=600&q=80',
+  },
+  {
+    id: 'music-air-drumming',
+    name: 'Air Drumming Session',
+    category: 'music',
+    duration: 20,
+    difficulty: 'easy',
+    materials: ['Your favorite song', 'Optional: pencils or chopsticks as drum sticks'],
+    description: 'Put on your favorite song and air-drum along with the beat. It\'s a genuine workout and surprisingly great for rhythm training.',
+    steps: [
+      'Pick a song with a clear, driving beat — rock, hip-hop, or funk all work great',
+      'Grab pencils, chopsticks, or just use your hands as drumsticks',
+      'Listen to the song once through and just feel the rhythm before playing',
+      'Tap your foot on the kick drum beat to lock in your timing foundation',
+      'Add your right hand for the hi-hat pattern, tapping along with the beat',
+      'Bring in your left hand for the snare hits on beats 2 and 4',
+      'Play through the whole song without stopping — mistakes are part of the fun!',
+    ],
+    tags: ['music', 'active', 'fun', 'rhythm'],
+    emoji: '🪘',
+    color: 'hobby-yellow',
+    mediaUrl: 'https://images.unsplash.com/photo-1524230572899-a752b3835840?w=600&q=80',
+  },
+  {
+    id: 'music-playlist-curation',
+    name: 'Playlist Curation',
+    category: 'music',
+    duration: 25,
+    difficulty: 'easy',
+    materials: ['Spotify, Apple Music, or YouTube', 'Optional: paper to jot down track ideas'],
+    description: 'Curate the perfect mood playlist from scratch — pick a vibe, research tracks, and craft an arc from opener to closer.',
+    steps: [
+      'Choose a specific mood or scenario: "Sunday morning", "late-night drive", "getting pumped up"',
+      'Pick 3 anchor songs you absolutely love for this mood — these are your foundation',
+      'Use Spotify\'s "Go to Song Radio" or YouTube autoplay to discover similar tracks',
+      'Aim for 10-15 songs total and think about flow — how does one song lead to the next?',
+      'Order your playlist with an arc: start calm, build to a peak, then wind down (or reverse it)',
+      'Listen through from start to finish and swap out anything that breaks the mood',
+      'Give your playlist a creative name that captures the feeling — make it feel real!',
+    ],
+    tags: ['music', 'curation', 'relaxing', 'creative'],
+    emoji: '🎧',
+    color: 'hobby-pink',
+    mediaUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80',
+  },
+  {
+    id: 'music-lyric-writing',
+    name: 'Write Song Lyrics',
+    category: 'music',
+    duration: 25,
+    difficulty: 'medium',
+    materials: ['Pen and paper or notes app', 'Optional: a song instrumental to write over'],
+    description: 'Pick an emotion you\'ve felt recently and write a verse and chorus. Rhyming is optional — just let it flow.',
+    steps: [
+      'Pick one specific emotion you\'ve felt recently: nostalgia, excitement, heartbreak, relief',
+      'Set a timer for 5 minutes and free-write every word or phrase associated with that feeling',
+      'Read back what you wrote and circle the lines that feel most true or interesting',
+      'Shape your best lines into a 4–6 line verse — don\'t worry about rhyming yet',
+      'Write a chorus: it should be the emotional peak, memorable, and easy to sing along to',
+      'Read your lyrics out loud to hear how they flow — fix anything that feels awkward',
+      'Optional: put on an instrumental track and try singing your lyrics over it',
+    ],
+    tags: ['music', 'writing', 'creative', 'emotional'],
+    emoji: '✍️',
+    color: 'hobby-green',
+    mediaUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80',
+  },
 ];
 
 export const getRandomHobby = (excludeIds: string[] = []): Hobby => {
