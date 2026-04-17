@@ -55,7 +55,7 @@ export const hobbies: Hobby[] = [
     tags: ['paper', 'relaxing', 'gift', 'traditional'],
     emoji: '🦢',
     color: 'hobby-coral',
-    mediaUrl: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=600&q=80',
   },
   {
     id: 'watercolor-sunset',
@@ -78,7 +78,7 @@ export const hobbies: Hobby[] = [
     tags: ['painting', 'creative', 'relaxing', 'colorful'],
     emoji: '🌅',
     color: 'hobby-blue',
-    mediaUrl: 'https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600&q=80',
   },
   {
     id: 'herb-windowsill',
@@ -125,7 +125,7 @@ export const hobbies: Hobby[] = [
     tags: ['friendship', 'gift', 'colorful', 'portable'],
     emoji: '📿',
     color: 'hobby-pink',
-    mediaUrl: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1573408301185-9519eb606f27?w=600&q=80',
   },
   {
     id: 'cloud-bread',
@@ -196,7 +196,7 @@ export const hobbies: Hobby[] = [
     tags: ['nature', 'patience', 'gift', 'seasonal'],
     emoji: '🌸',
     color: 'hobby-green',
-    mediaUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc47?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
   },
   {
     id: 'hand-stretches',
@@ -289,7 +289,7 @@ export const hobbies: Hobby[] = [
     tags: ['traditional', 'gift', 'relaxing', 'portable'],
     emoji: '🪡',
     color: 'hobby-coral',
-    mediaUrl: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1550159930-40066082a4fc?w=600&q=80',
   },
   {
     id: 'breathing-exercise',
@@ -379,7 +379,7 @@ export const hobbies: Hobby[] = [
     tags: ['music', 'active', 'fun', 'rhythm'],
     emoji: '🪘',
     color: 'hobby-yellow',
-    mediaUrl: 'https://images.unsplash.com/photo-1524230572899-a752b3835840?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&q=80',
   },
   {
     id: 'music-playlist-curation',
