@@ -70,3 +70,14 @@ export function WeeklyCalendar({ completedDays, currentStreak }: WeeklyCalendarP
     </Card>
   );
 }
+import { CalendarDays } from "lucide-react";
+export function HeaderActions() {
+  return (
+    <div className="flex items-center gap-3">
+      <button className="p-2 hover:bg-neutral-200 dark:hover:bg-neutral-800 rounded-md">
+        <CalendarDays className="h-5 w-5" />
+      </button>
+      <SearchButton />
+    </div>
+  );
+}
