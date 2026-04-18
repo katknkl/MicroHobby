@@ -125,7 +125,7 @@ export const hobbies: Hobby[] = [
     tags: ['friendship', 'gift', 'colorful', 'portable'],
     emoji: '📿',
     color: 'hobby-pink',
-    mediaUrl: 'https://images.unsplash.com/photo-1611162616305-eb19b0f2b7e1?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80',
   },
   {
     id: 'cloud-bread',
@@ -196,7 +196,7 @@ export const hobbies: Hobby[] = [
     tags: ['nature', 'patience', 'gift', 'seasonal'],
     emoji: '🌸',
     color: 'hobby-green',
-    mediaUrl: 'https://images.unsplash.com/photo-1490750967868-88df5691cc47?w=600&q=80',
+    mediaUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600&q=80',
   },
   {
     id: 'hand-stretches',
